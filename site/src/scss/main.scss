@@ -4,6 +4,7 @@
 
 :root {
 }
+@import "bootstrap/scss/bootstrap-grid";
 
 /* ====================================
 // reset rules
@@ -39,6 +40,96 @@ video {
   vertical-align: middle;
 }
 
+// font-family: "DM Serif Display", serif;
+// font-family: "Heebo", sans-serif;
 /* ====================================
 // base rules
 // ==================================== */
+
+body {
+  margin: auto;
+  font-family: DMSerifDisplay-Regular;
+  color: #000000;
+  background-color: #f7f7f7;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.background {
+  background-color: white;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+main img {
+  width: 100%;
+}
+
+h3 {
+  font-family: Heebo-Bold;
+  font-size: 18px;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 23px;
+  margin: 20px 10px 50px;
+}
+
+.first {
+  font-family: DMSerifDisplay-Regular;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+.autor {
+  font-family: Heebo-semibold;
+  font-size: 10px;
+  text-align: center;
+  line-height: 20px;
+  margin: 50px 10px 30px;
+}
+
+.review h3 {
+  text-align: left;
+  margin: 0;
+}
+
+.name {
+  font-family: Heebo-regular;
+  font-weight: 400;
+}
+
+.name-first {
+  font-style: italic;
+}
+
+p {
+  font-family: Heebo-Light;
+  font-size: 14px;
+}
+
+.reviews-text {
+  margin: 20px 0;
+  text-align: left;
+}
+
+.review .background {
+  padding: 25px 20px 30px;
+}
+
+h2 {
+  background-color: #eee;
+  font-family: Heebo-Medium;
+  font-size: 12px;
+  line-height: 50px;
+  padding-left: 20px;
+}
