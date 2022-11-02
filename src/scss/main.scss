@@ -5,6 +5,10 @@
 // ==================================== */
 
 :root {
+  --extra-light-color: #fff;
+  --extra-drak-color: #000;
+  --medium-color: #b3b3b3;
+  --font: "Heebo", sans-serif;
 }
 
 /* ====================================
@@ -45,14 +49,45 @@ video {
 // base rules
 // ==================================== */
 
-.row + .row {
-  margin-top: 16px;
+body {
+  background-color: var(--medium-color);
 }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
+h1 {
+  background: var(--extra-light-color);
+  font-family: "Heebo", sans-serif;
+  font-size: 60px;
+  color: var(--extra-drak-color);
+  letter-spacing: 0;
+  text-align: center;
+}
+
+article {
+  background-color: var(--extra-light-color);
+  margin: 20px 15px;
+}
+
+h2 {
+  font-family: var(--font);
+  font-size: 22px;
+  color: var(--extra-drak-color);
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 26px;
+  margin: 25px 10px 50px;
+}
+
+article p {
+  font-family: var(--font);
+  font-size: 10px;
+  color: var(--extra-drak-color);
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 20px;
+  font-weight: 600;
+  margin: 0 10px 30px;
+}
+
+span {
+  color: var(--medium-color);
 }
