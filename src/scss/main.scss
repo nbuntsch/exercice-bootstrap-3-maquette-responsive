@@ -8,6 +8,8 @@
   --extra-light-color: #fff;
   --extra-drak-color: #000;
   --medium-color: #b3b3b3;
+  --medium-light-color: #eee;
+  --site-background: #f7f7f7;
   --font: "Heebo", sans-serif;
 }
 
@@ -50,21 +52,31 @@ video {
 // ==================================== */
 
 body {
-  background-color: var(--medium-color);
+  background-color: var(--site-background);
+  font-family: "Heebo", sans-serif;
+  color: var(--extra-drak-color);
 }
 
-h1 {
-  background: var(--extra-light-color);
-  font-family: "Heebo", sans-serif;
-  font-size: 60px;
-  color: var(--extra-drak-color);
-  letter-spacing: 0;
-  text-align: center;
+.row > * {
+  padding: 0;
+}
+
+header {
+  margin-bottom: 20px;
 }
 
 article {
   background-color: var(--extra-light-color);
-  margin: 20px 15px;
+  margin: 0 15px 20px;
+}
+
+h1 {
+  background: var(--extra-light-color);
+  font-size: 60px;
+  color: var(--extra-drak-color);
+  letter-spacing: 0;
+  text-align: center;
+  padding: 15px 10px;
 }
 
 h2 {
@@ -74,18 +86,55 @@ h2 {
   letter-spacing: 0;
   text-align: center;
   line-height: 26px;
-  margin: 25px 10px 50px;
+  padding: 25px 10px 0;
 }
 
-article p {
-  font-family: var(--font);
+h3 {
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 50px;
+  padding: 0 20px;
+}
+
+.section {
+  background-color: var(--medium-light-color);
+  margin: 0 15px;
+}
+
+h4 {
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 26px;
+  padding: 25px 20px 0;
+}
+
+.music-name {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 23px;
+  padding: 0 20px;
+}
+
+.by-who {
   font-size: 10px;
-  color: var(--extra-drak-color);
   letter-spacing: 0;
   text-align: center;
   line-height: 20px;
   font-weight: 600;
-  margin: 0 10px 30px;
+  padding: 50px 10px 30px;
+}
+
+.by-who-left {
+  text-align: left;
+  padding: 20px;
+}
+
+p {
+  font-size: 14px;
+  letter-spacing: 0;
+  font-weight: 100;
+  padding: 0 20px 30px;
 }
 
 span {
