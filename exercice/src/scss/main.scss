@@ -23,7 +23,6 @@
 
 html {
   font-size: 16px;
-
   display: block;
   scroll-behavior: smooth;
   margin: auto;
@@ -56,10 +55,12 @@ video {
 
 html {
   background-color: #f7f7f7;
+  padding-bottom: 30px;
 }
 
 header {
   background-color: white;
+  margin-bottom: 20px;
 }
 
 h1 {
@@ -72,11 +73,12 @@ h1 {
 .row article {
   background-color: white;
   font-family: 'heebo';
+  margin-bottom: 20px;
 }
 
 article h2 {
   padding: 28px 10px;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 18px;
   text-align: center;
   line-height: 23px;
@@ -96,25 +98,31 @@ span {
 
 h3 {
   font-family: 'Heebo';
-  font-weight: 600;
+  font-weight: 400;
   font-size: 12px;
 }
 
-.reviews {
+div .reviews {
   background-color: #EEEEEE;
   padding: 15px 20px;
 }
 
 h4 {
   font-family: 'Heebo';
-  font-weight: 600;
+  font-weight: 400;
   font-size: 22px;
+}
+
+.review {
+  margin-bottom: 20px;
+  padding: 25px 20px 30px;
+  background-color: white;
 }
 
 .review p {
   font-family: 'Heebo';
   padding: 20px 0;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 10px;
   line-height: 20px;
 }
@@ -125,5 +133,7 @@ div .information {
   font-weight: 400;
   padding: 0 0 30px;
 }
+
+
 
 
