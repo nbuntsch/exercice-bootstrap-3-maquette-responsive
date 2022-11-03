@@ -58,10 +58,48 @@ video {
 
 html {
   font-family: "Heebo", sans-serif;
+  background-color: #f7f7f7;
+}
+
+.main-container {
+  margin: 0 15px;
+}
+
+header {
+  background-color: white;
+  margin-bottom: 20px;
 }
 
 h1 {
   font-size: 60px;
   font-weight: 300;
   text-align: center;
+}
+
+article {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 0 10px 30px 10px;
+  text-align: center;
+}
+
+article h2 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  margin-bottom: 50px;
+}
+
+img {
+  margin-bottom: 25px;
+}
+
+.credits {
+  font-size: 10px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+span {
+  color: #b3b3b3;
 }
