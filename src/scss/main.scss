@@ -42,7 +42,7 @@ a {
 
 img,
 video {
-  max-inline-size: 100%;
+  width: 100%;
   block-size: auto;
   vertical-align: middle;
 }
@@ -55,10 +55,6 @@ body {
   background-color: var(--site-background);
   font-family: "Heebo", sans-serif;
   color: var(--extra-drak-color);
-}
-
-.row > * {
-  padding: 0;
 }
 
 header {
