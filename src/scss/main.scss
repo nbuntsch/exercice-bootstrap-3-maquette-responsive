@@ -111,3 +111,33 @@ span {
   font-weight: 300;
   line-height: 50px;
 }
+
+.card {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 25px 20px 30px 20px;
+}
+
+.card h2 {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 700;
+}
+
+.subhead {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 20px;
+}
+
+.card .credits {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 300;
+}
