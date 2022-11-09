@@ -47,7 +47,7 @@ a {
 
 img,
 video {
-  max-inline-size: 100%;
+  width: 100%;
   block-size: auto;
   vertical-align: middle;
 }
@@ -59,10 +59,6 @@ video {
 html {
   font-family: "Heebo", sans-serif;
   background-color: #f7f7f7;
-}
-
-.main-container {
-  margin: 0 15px;
 }
 
 header {
